@@ -1,0 +1,39 @@
+{
+  "name": "collect_kwarg",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "forever start index.js",
+    "stop": "forever stop index.js",
+    "list": "forever list",
+    "logs": "forever logs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jongsoobae/collect_kwarg.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jongsoobae/collect_kwarg/issues"
+  },
+  "bin": {
+    "collect_keyword": "./scripts/collect_keyword.js"
+  },
+  "homepage": "https://github.com/jongsoobae/collect_kwarg#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "cheerio": "^1.0.0-rc.2",
+    "convict": "^4.0.1",
+    "forever": "^0.15.3",
+    "forever-monitor": "^1.7.1",
+    "moment": "^2.19.1",
+    "mongoose": "^4.12.5",
+    "node-schedule": "^1.2.5",
+    "node-telegram-bot-api": "^0.29.0",
+    "root-require": "^0.3.1",
+    "sync-request": "^4.1.0"
+  }
+}

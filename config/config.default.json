@@ -1,0 +1,26 @@
+{
+  "db": {
+    "mongodb": {
+      "host": "127.0.0.1",
+      "port": "27017",
+      "space": "keywords"
+    }
+  },
+
+  "telegram": {
+    "token": "451117040:AAHmBDqJhZkWLU4cthzb6QkeIPpwXKkpYbk",
+    "bot": {
+      "my": {
+        "id": 202282841
+      }
+    }
+  },
+
+  "request": {
+    "target": "http://datalab.naver.com"
+  },
+
+  "scheduler": {
+    "cron": "0,10,20,30,40,50 * * * *"
+  }
+}
