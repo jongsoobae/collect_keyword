@@ -4,6 +4,7 @@ require('./db');
 var Schema = mongoose.Schema;
 var KeywordSchema = new Schema({
     'date': Date,
+    'date_str': String,
     'data': Array
 });
 

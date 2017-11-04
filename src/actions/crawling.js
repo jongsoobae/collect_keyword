@@ -27,7 +27,8 @@ function get_parsed_data() {
     var di = date_str.match(/\d+/g);
 
     var result = {
-      'date': moment(`${di[0]}-${di[1]}-${di[2]} ${di[3]}:${di[4]}:${di[5]}`).format(),
+      'date_str': `${di[0]}-${di[1]}-${di[2]} ${di[3]}:${di[4]}:${di[5]}`,
+      'date': new Date(),
       'data': kwargs
     };
 
